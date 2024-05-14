@@ -1,0 +1,9 @@
+ConsoleApp_cpp_graph.txt
+#include<graphics.h>
+main()
+{
+	initwindow(800,800);
+	//
+	line(200,210,40,410);
+	getch();
+}

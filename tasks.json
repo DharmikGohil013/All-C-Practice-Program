@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "graphics.cpp",
+                "-o",
+                "graphics.exe",
+                "-I<path/to/SFML/include>",
+                "-L<path/to/SFML/lib>",
+                "-lsfml-graphics",
+                "-lsfml-window",
+                "-lsfml-system"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
